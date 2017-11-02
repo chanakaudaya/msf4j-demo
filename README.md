@@ -1,4 +1,4 @@
-# WSO2Con Asia 2016 - Introduction to MSF4J - demo
+# Introduction to MSF4J - demo
 
 This is a 5 step demo of WSO2 Microservices Framwork for Java ([MSF4J](https://github.com/wso2/msf4j))
 
