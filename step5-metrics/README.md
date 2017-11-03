@@ -15,13 +15,12 @@ The setup script will also copy the already built MSF4J HTTP Monitoring Carbon A
 ### Start DAS
 
 From DAS_HOME, run, bin/wso2server.sh to start DAS and make sure that it starts properly.
-Commands
---------
-1.
-curl -v http://localhost:8080/stockquote/IBM
 
-2.
-curl -v -X POST -H "Content-Type:application/json" -d '{"symbol":"GOOG","name":"Google Inc.", "high":190.23, "low":187.45}' http://localhost:8080/stockquote
+### Execute following Commands
+
+1. curl -v http://localhost:8080/stockquote/IBM
+
+2. curl -v -X POST -H "Content-Type:application/json" -d '{"symbol":"GOOG","name":"Google Inc.", "high":190.23, "low":187.45}' http://localhost:8080/stockquote
 
 ### Access the HTTP Monitoring dashboard
 Go to [dashboard](http://localhost:9763/monitoring/). If everything works fine, you should see the metrics & information related to your microservices on this dashboard. Please allow a few minutes for the dashboard to be updated because the dashboard update batch task runs every few minutes.

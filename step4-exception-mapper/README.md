@@ -2,11 +2,10 @@
 
 Commands
 --------
-1.
-curl -v http://localhost:8080/stockquote/IBM
+1. curl -v http://localhost:8080/stockquote/IBM
 
-2.
-curl -v http://localhost:8080/stockquote/MSFT
+2. curl -v http://localhost:8080/stockquote/MSFT
+
 You will get the following customized error message from exception mapper
 
 Symbol MSFT not found [from SymbolNotFoundMapper]
